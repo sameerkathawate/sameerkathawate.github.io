@@ -1,1 +1,102 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  padding: 72px 0;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0.4rem 0;
+}
+
+.subtitle {
+  max-width: 760px;
+  font-size: 1.1rem;
+}
+
+.actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: white;
+}
+
+.button.primary {
+  background: white;
+  color: #0f172a;
+  border-color: white;
+}
+
+.section {
+  padding: 56px 0;
+}
+
+.section.alt {
+  background: #eef2ff;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card a,
+.links-list a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.highlights {
+  padding-left: 20px;
+}
+
+.links-list {
+  display: grid;
+  gap: 10px;
+}
