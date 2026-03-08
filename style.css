@@ -18,7 +18,7 @@ body {
 .hero {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   color: white;
-  padding: 72px 0;
+  padding: 64px 0 48px;
 }
 
 .eyebrow {
@@ -61,7 +61,11 @@ h1 {
 }
 
 .section {
-  padding: 56px 0;
+  padding: 36px 0;
+}
+
+.section h2 {
+  margin-bottom: 16px;
 }
 
 .section.alt {
